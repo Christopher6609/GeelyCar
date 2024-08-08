@@ -9,8 +9,12 @@ export default {
       fontFamily:{
         euclid:["euclid-flex"],
         nunito:["Nunito+Sans"],
+      },
+      backgroundImage:{
+        'request-section':"url('/img/Rectangle 690.png')",
       }
     },
+
   },
   plugins: [],
 }
