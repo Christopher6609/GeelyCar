@@ -1,14 +1,14 @@
 const FullView = () => {
   return (
     <>
-      <div className="md:w-full md:h-[43.875rem] ">
+      <div className="md:w-full md:h-[43.875rem] flex justify-center items-center">
         <img
           className="w-fit  h-full object-contain"
           src={`/img/Component 1.png`}
           alt="Full View"
         />
       </div>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center px-[2rem] md:px-0">
         <div className="md:w-[62.375rem] w-full flex justify-between ">
           <div className="text-start">
             <p className="md:text-[1.25rem] text-[0.378rem] leading-normal text-[#363636]">

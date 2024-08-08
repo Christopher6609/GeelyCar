@@ -7,6 +7,7 @@ import FullView from "../molecules/FullView";
 import Request from "../molecules/Request";
 import Contact from "../molecules/Contact";
 import Newsletter from "../molecules/Newsletter";
+import Footer from "../molecules/Footer";
 
 const Landing = () => {
   const [body, setBody] = useState(interior);
@@ -58,6 +59,7 @@ const Landing = () => {
               <Request />
               <Contact />
               <Newsletter />
+              <Footer/>
             </div>
           </Fragment>
         );

@@ -10,7 +10,7 @@ const Body = ({ data }) => {
         <div className="md:pt-[6.19rem] pt-[2.69rem]">
           <ImageCard img={data.dashBoardImg} caption={data.dashBoardCaption} />
         </div>
-        <div className="flex gap-[1.5rem] md:pt-[5.12rem] pt-[3.62rem]">
+        <div className="flex  gap-[0.875rem] justify-between md:pt-[5.12rem] pt-[3.62rem] px-[1rem]">
           <ImageCard img={data.levelTwoImg1} caption={data.levelTwoCaption1} />
           <ImageCard img={data.levelTwoImg2} caption={data.levelTwoCaption2} />
         </div>
@@ -20,7 +20,7 @@ const Body = ({ data }) => {
             caption={data.levelThreeCaption}
           />
         </div>
-        <div className="flex gap-[1.5rem] md:pt-[5.12rem] pt-[3.62rem]">
+        <div className="flex gap-[0.875rem] justify-between md:pt-[5.12rem] pt-[3.62rem] px-[1rem]">
           <ImageCard
             img={data.levelFourImg1}
             caption={data.levelFourCaption1}
@@ -31,10 +31,16 @@ const Body = ({ data }) => {
             caption={data.levelFourCaption2}
           />
         </div>
-        <div className="md:pt-[6.19rem] pt-[2.69rem]">
-          <ImageCard img={data.levelFiveImg} caption={data.levelFiveCaption} />
+        {/* <div className="md:pt-[6.19rem] pt-[2.69rem] h-[30rem] liner"  style={{ backgroundImage:`url(${data.levelFiveImg})` }} >
+          
+        </div> */}
+        <div className="md:pt-[6.19rem] pt-[2.69rem] ">
+          <ImageCard
+            img={data.levelFiveImg}
+            caption={data.levelFiveCaption}
+          />
         </div>
-        <div className="flex md:flex-row flex-col  md:pt-[11.81rem] pt-[5.38rem]">
+        <div className="flex md:flex-row flex-col  md:mt-[11.81rem] mt-[5.38rem]  justify-center">
           <div className="md:w-[39.5rem] w-full md:h-[33.5rem] h-[17.75rem]">
             <img
               className="w-full h-full object-fit"
@@ -42,11 +48,11 @@ const Body = ({ data }) => {
               alt="image"
             />
           </div>
-          <div className="px-[1.44rem] md:w-[38.437rem] w-full flex flex-col justify-between md:text-start text-center">
+          <div className="px-[1.44rem] md:w-[40.437rem] w-full flex flex-col justify-between md:text-start text-center ">
             <h2 className="text-[#000] font-[euclid] text-[3rem] font-[700] leading-normal hidden md:block">
               Geely Emgrand ec7
             </h2>
-            <p className="md:text-[1.25rem] text-[0.75rem] font-[nunito] text-[#555] md:leading-[2.875rem] leading-[1.96rem] pt-[1.44rem]md:pt-0">
+            <p className="md:text-[1.25rem] text-[0.75rem] font-[nunito] text-[#555] md:leading-[2.875rem] text-justify leading-[1.96rem] pt-[1.44rem] md:pt-0">
               This car is perfect for those looking for a reliable and stylish
               ride. It offers a sporty design, with a sleek exterior and
               luxurious interior. It has a powerful engine, top-of-the-line

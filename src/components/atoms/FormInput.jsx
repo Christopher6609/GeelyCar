@@ -3,7 +3,7 @@ const FormInput = ({ ...otherProps }) => {
     <>
       <input
         {...otherProps}
-        className="md:w-[37.4375rem] w-[21rem] md:h-[4.5rem] p-[0.625rem] bg-transparent border text-[1.25rem] text-[#f3f0f0] font-[500] leading-normal"
+        className="md:w-[37.4375rem] w-full md:h-[4.5rem] p-[0.625rem] bg-transparent border text-[1.25rem] text-[#FFF] font-[500] leading-normal"
       />
     </>
   );
