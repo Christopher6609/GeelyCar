@@ -23,14 +23,14 @@ const Contact = () => {
   };
 
   return (
-    <div className="bg-contact-section md:h-[50.125rem] mt-[5.88rem] bg-cover bg-center px-[1.31rem] py-[1.94rem]  ">
-      <div className="flex md:flex-row flex-col items-center h-full">
+    <div className="bg-contact-section md:bg-fixed md:h-[50.125rem] md:pt-[5.88rem] pt-[2.75rem] bg-cover bg-center md:px-[3.68rem] px-[1rem] py-[1.94rem]  ">
+      <div className="flex md:flex-row flex-col items-center h-full justify-between">
         <div className="text-[#FFF] md:w-[38.0625rem] md:text-start ">
-          <h1 className="md:text-[3rem] text-[1.25rem] font-[700] ">
+          <h1 className="md:text-[3rem] text-[1.25rem] text-center md:text-start font-[700] ">
             Want To Know More About Geely Emgrand ec7?
           </h1>
         </div>
-        <div className="md:w-[37.4375rem] mt-[1.94rem] md:mt-0">
+        <div className="md:w-[37.4375rem] mt-[1.94rem] md:mt-0 ">
           <form className="space-y-[1.25rem]">
             <FormInput
               type="text"
@@ -49,7 +49,7 @@ const Contact = () => {
               required
             />
             <textarea
-              className="md:w-[37.4375rem] w-[21rem] bg-transparent border p-[0.625rem] text-[1.25rem] text-[#898989] font-[500] leading-normal"
+              className="md:w-[37.4375rem] w-full bg-transparent border p-[0.625rem] text-[1.25rem] text-[#898989] font-[500] leading-normal"
               rows="6"
               name="message"
               placeholder="Message"

@@ -10,7 +10,7 @@ const Newsletter = () => {
           alt="newsletterImage"
         />
       </div>
-      <div className="text-start flex flex-col md:h-[16.5rem] justify-between space-y-[1rem]">
+      <div className="text-start flex flex-col md:h-[16.5rem] justify-between space-y-[1rem] px-[1rem]">
         <h2 className="uppercase md:text-[3rem] text-[1.25rem] text-[#121214] font-[700] leading-normal">
           Find out first.
         </h2>
