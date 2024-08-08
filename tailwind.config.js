@@ -12,6 +12,7 @@ export default {
       },
       backgroundImage:{
         'request-section':"url('/img/Rectangle 690.png')",
+        'contact-section':"url('/img/geely.jpg')",
       }
     },
 

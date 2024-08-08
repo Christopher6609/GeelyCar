@@ -1,9 +1,9 @@
 const FullView = () => {
   return (
     <>
-      <div className="md:w-[77.5rem] md:h-[43.875rem]">
+      <div className="md:w-full md:h-[43.875rem] ">
         <img
-          className="w-full h-full object-contain"
+          className="w-fit  h-full object-contain"
           src={`/img/Component 1.png`}
           alt="Full View"
         />
