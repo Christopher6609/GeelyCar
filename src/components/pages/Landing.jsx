@@ -5,6 +5,8 @@ import Body from "../molecules/Body";
 import Heading from "../molecules/Heading";
 import FullView from "../molecules/FullView";
 import Request from "../molecules/Request";
+import Contact from "../molecules/Contact";
+import Newsletter from "../molecules/Newsletter";
 
 const Landing = () => {
   const [body, setBody] = useState(interior);
@@ -22,7 +24,7 @@ const Landing = () => {
   };
 
   return (
-    <main className="max-w-[1440px] mx-auto">
+    <main className="max-w-[1440px] mx-auto px-0">
       {body.map((data) => {
         return (
           <Fragment key={data.id}>
@@ -54,6 +56,8 @@ const Landing = () => {
               <Body data={data} />
               <FullView />
               <Request />
+              <Contact />
+              <Newsletter />
             </div>
           </Fragment>
         );
