@@ -4,7 +4,7 @@ const Body = ({ data }) => {
   return (
     <>
       <div className="pt-[1rem]">
-        <p className="text-[#555] text-center md:text-[1.5rem] text-[0.75rem] font-normal md:leading-[2.875rem] font-[nunito]">
+        <p className="text-[#555] text-center md:text-[1.5rem] text-[0.75rem] font-normal px-[1rem] md:leading-[2.875rem] font-[nunito]">
           {data.description}
         </p>
         <div className="md:pt-[6.19rem] pt-[2.69rem]">
