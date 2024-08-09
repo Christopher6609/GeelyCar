@@ -16,7 +16,7 @@ const Footer = () => {
           />
         </div>
 
-        <div className=" space-y-[1.94rem] mt-[2.81rem] md:mt-0">
+        <div className=" space-y-[1.94rem] mt-[2.81rem] md:mt-0 text-center md:text-start">
           <h1 className="uppercase md:text-[1.25rem] text-[1rem] font-[700] leading-normal">
             Quick Links
           </h1>
@@ -35,7 +35,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className=" space-y-[1.94rem] mt-[2.81rem] md:mt-0">
+        <div className=" space-y-[1.94rem] mt-[2.81rem] md:mt-0 text-center md:text-start">
           <h1 className="uppercase md:text-[1.25rem] text-[1rem] font-[700] leading-normal">
             Support
           </h1>
